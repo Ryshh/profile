@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Grechen+Fuemen&display=swap');
+
+*
+{
+    font-family: "Grechen Fuemen", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1
+{
+    text-align: center;
+    margin: 5px;
+}
+
+.cards-container
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
+
+    margin: 0 auto;
+    width: 1200px; 
+    justify-content: center;
+    background-color: beige;
+    gap: 15px;
+}
+
+.card
+{
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    box-shadow: 0 0 5px 5px lightgrey;
+    background-color: whitesmoke;
+}
+
+img
+{
+    border-radius: 360px;
+    width: 200px;
+    height: 200px;
+    margin-top: 15px;
+}
+
+p
+{
+    color: gray;
+}

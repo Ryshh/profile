@@ -1,0 +1,180 @@
+body
+{
+    display: flex;
+    justify-content: center;
+}
+
+.card
+{
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 15px lightgrey;
+    background-color: whitesmoke;
+    padding-bottom: 20px;
+
+
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile-bg
+{
+    background: rgb(162,176,237);
+    background: linear-gradient(130deg, rgba(162,176,237,1) 0%, rgba(9,9,121,1) 32%, rgba(9,9,121,1) 100%);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 250px;
+}
+
+.profile-inf
+{
+    margin-top: 80px;
+}
+
+.kep
+{
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+    
+    transform: translateY(85px);
+}
+
+.szerkeszt
+{
+    border: 0;
+    border-radius: 5px;
+    height: 50px;
+    width: 50%;
+    background-color: darkblue;
+    color: white;
+}
+
+
+/*------------------------------------------------*/
+
+#mypopover
+{
+    width: 350px;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 139, .5);
+}
+
+.vertical
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.horizontal
+{
+    display: flex;
+    justify-content: center;
+}
+
+.popoverImage
+{
+    height: 100px;
+    border-radius: 50%;
+}
+
+.popoverImgBg
+{
+    height: 100px;
+    width: 100px;
+    padding: 4px;
+    border-radius: 50%;
+    border: 1px solid blue;
+    margin: 20px;
+}
+
+.changeButton
+{
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    border: 0px;
+
+    width: 150px;
+    height: 50px;
+    margin-bottom: 5px;
+}
+
+.deleteButton
+{
+    border-radius: 5px;
+    background-color: white;
+    color: blue;
+    border: 1px solid blue;
+
+    width: 150px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.popoverButton
+{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.inputInfo
+{
+    display: flex;
+    flex-direction: column;
+}
+
+input
+{
+    height: 25px;
+    width: 90%;
+    margin: auto;
+    padding-left: 10px;
+    padding-top: 2.5px;
+
+    color: rgb(5, 5, 58);
+    background: rgb(230, 229, 237);
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+textarea
+{
+    min-height: 35px;
+    min-width: 90%;
+    max-width: 90%;
+    margin: auto;
+    padding-left: 10px;
+
+    color: rgb(5, 5, 58);
+    background: rgb(230, 229, 237);
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+
+.saveButton
+{
+    height: 35px;
+    width: 91%;
+    margin: 15px auto 10px auto;
+
+    background-color: blue;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+}
+
+.inputInfo>p
+{
+    text-align: left;
+    margin-left: 15px;
+    margin-bottom: 0;
+    color: darkblue;
+}
+
